@@ -1,3 +1,4 @@
+
 a {
     color: white;  
   }
@@ -45,7 +46,7 @@ a {
 
   .secondary-block {
     color: white;
-    background: #0475BA;
+    background: lightseagreen;
   }
 
   .content  {
@@ -88,3 +89,13 @@ a {
       width: 390px;
       display: inline-block;
   }
+  @media screen and (max-width: 650px){
+    body {
+        background-color: lightblue;
+    }
+    a {
+      color:red;  
+    }
+    
+  }
+  
